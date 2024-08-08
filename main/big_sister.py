@@ -1,6 +1,6 @@
 import os
 import sys
-import constants
+import constants as constants
 
 from langchain_community.document_loaders import TextLoader
 from langchain_community.document_loaders import DirectoryLoader
@@ -14,7 +14,7 @@ embedding_model = OpenAIEmbeddings()
 
 query = sys.argv[1]
 
-loader = TextLoader('test.txt')
+loader = DirectoryLoader('data/').load()
 index = VectorstoreIndexCreator(embedding=embedding_model).from_loaders([loader])
 
 print(index.query(query,llm=ChatOpenAI()))
