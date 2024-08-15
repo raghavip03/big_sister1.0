@@ -45,5 +45,3 @@ Installation and Dependencies:
   - Improving Accuracy: Experiment with different neural network architectures and hyperparameters to enhance the model's accuracy.
   - Expanding Intents: Add more intents and patterns to cover a broader range of user queries.
   - User Interface: Develop a web or mobile interface for easier interaction with the chatbot.
-
-snkfjsjdlsd
