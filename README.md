@@ -1,10 +1,10 @@
-#Project Name:
+Project Name:
 big_sister1.0
 
-##Project Description:
+Project Description:
 big_sister1.0 is a chatbot designed to assist users with college planning. It provides guidance on various aspects of the college application process, including choosing the right college, creating a strong application, and general tips for planning a successful college journey. This chatbot is specifically tailored to support students on visas, such as H4 and F1, who often have limited resources when it comes to selecting colleges that align with their unique circumstances.
 
-##Technical Components:
+Technical Components:
   0. Designing Intents:
     - Designed a JSON representation of 'intents' the user has when asking questions
     - 'intents' are categorized into tags, each tag having 'patterns' of similar questions
@@ -31,7 +31,7 @@ big_sister1.0 is a chatbot designed to assist users with college planning. It pr
   5. Response Generation:
   - The chatbot's responses are generated based on the intent with the highest probability. If the model is confident (probability > 0.75), it selects a response; otherwise, it indicates that it doesn't understand the query.
 
-##Installation and Dependencies:
+Installation and Dependencies:
   1. Clone the Repository:
     git clone https://github.com/raghavip03/big_sister1.0.git
   2. Install Dependencies:
@@ -41,7 +41,7 @@ big_sister1.0 is a chatbot designed to assist users with college planning. It pr
   4. Run the chatbot:
     python big_sister.py
 
-##7. Future Enhancements
+7. Future Enhancements
   - Improving Accuracy: Experiment with different neural network architectures and hyperparameters to enhance the model's accuracy.
   - Expanding Intents: Add more intents and patterns to cover a broader range of user queries.
   - User Interface: Develop a web or mobile interface for easier interaction with the chatbot.
