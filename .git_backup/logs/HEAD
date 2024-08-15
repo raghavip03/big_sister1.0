@@ -1,0 +1,5 @@
+0000000000000000000000000000000000000000 9eec30c832865092f9818c783f612995f5fa8177 Raghavi <raghavip@cs.washington.edu> 1720071742 -0700	clone: from github.com:raghavip03/big_sister1.0.git
+9eec30c832865092f9818c783f612995f5fa8177 d0c5288b97543730388c5562cd8d015e52750962 Raghavi <raghavip@cs.washington.edu> 1722490396 +0530	commit: Figured out the use of openai API and it is working on a small scale, need to persist the data
+d0c5288b97543730388c5562cd8d015e52750962 f423e9b60ff45a5f3320ebf1639e5f526472d345 Raghavi <raghavip@cs.washington.edu> 1723137797 +0530	commit: tested with next trial and cleaned up data
+f423e9b60ff45a5f3320ebf1639e5f526472d345 430f2374f3278483d73e816d49351a5f7dd327c9 Raghavi <raghavip@cs.washington.edu> 1723291348 +0530	commit: changed format to using Jupyter Notebook, chatbot is ready need to include UI
+430f2374f3278483d73e816d49351a5f7dd327c9 20d3db7c3abe7d71c13e212c91a1bedc9052b4d4 Raghavi <raghavip@cs.washington.edu> 1723700244 +0530	commit: final

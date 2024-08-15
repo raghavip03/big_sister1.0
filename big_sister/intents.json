@@ -1,0 +1,29 @@
+{"intents": [
+  {"tag": "greeting",
+   "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+   "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+   "context_set": ""
+  },
+  {"tag": "goodbye",
+   "patterns": ["Bye", "See you later", "Goodbye"],
+   "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+  },
+  {"tag": "thanks",
+   "patterns": ["Thanks", "Thank you", "That's helpful"],
+   "responses": ["Happy to help!", "Any time!", "My pleasure"]
+  },
+  {"tag": "college",
+   "patterns": ["I need help with college planning", "How can I plan for college?", "What are your tips for college planning?"],
+   "responses": ["Let's begin with your HS graduation year, your citizenship status (Y/N), and which college you plan on applying to", "", "My pleasure"]
+  },
+  {"tag": "graduation",
+   "patterns": ["I plan to graduate in ", "How can I plan for college?", "What are your tips for college planning?"],
+   "responses": ["Can you specify what specifically you need help with in planning for college? Ex: Choosing a college, creating a good college application, some general tips"]
+  },
+  {"tag": "college_search",
+   "patterns": ["What are some good colleges for me?", "How do I find the right college?", "Can you help me search for colleges?"],
+   "responses": ["What major or field of study are you interested in?", "Are you looking for colleges in a specific region or state?", "Let’s start by narrowing down your options based on your preferences."]
+  }
+]
+
+}
